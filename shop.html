@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGaleria</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo-transparent.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><div id="lg-bag">
+                    <a class="active" href="shop.html"><i class="far fa-shopping-bag"></i></a>
+                    <span class="cart-item-count"></span>
+                    </div>
+                </li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="shop.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="img/product1.png" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Weightlifting Grip</h2>
+                    <span class="cart-price">BDT 390.00</span>
+                    <div class="cart-quantity">
+                        <button id="decrease">-</button>
+                        <span class="number"> 1 </span>
+                        <button id="increase">+</button>
+                    </div>
+                </div>
+                <i class="far fa-times-circle cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">BDT 0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <!-- <i class="far fa-times cart-remove" id="cart-close"></i> -->
+    </div>
+
+    <section class="shop">
+        <h1 class="section-title">#Shop Products</h1>
+        <div class="product-content">
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="img/product1.png" alt="">
+                </div>
+                <h2 class="product-title">Weightlifting Gym Grip</h2>
+                <div class="price-and-cart">
+                    <span class="price">BDT 390.00</span>
+                    <i class="fal fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="img-box" onclick="window.location.href='sproduct.html';">
+                    <img src="img/pic1.png" alt="">
+                </div>
+                <h2 class="product-title">Baki Hanma Drop Shoulder</h2>
+                <div class="price-and-cart">
+                    <span class="price">BDT 550.00</span>
+                    <i class="fal fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="img/pic2.png" alt="">
+                </div>
+                <h2 class="product-title">Combo!</h2>
+                <div class="price-and-cart">
+                    <span class="price">BDT 890.00</span>
+                    <i class="fal fa-shopping-cart add-cart"></i>
+                </div>
+            </div>
+            <!-- <div class="product-box">
+                <div class="img-box">
+                    <img src="img/product1.png" alt="">
+                </div>
+                <h2 class="product-title">Baki Hanma Drop Shoulder</h2>
+                <div class="price-and-cart">
+                    <span class="price">BDT 550.00</span>
+                    <i class="fal fa-shopping-cart add-cart"></i>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo-transparent.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Mohakhali School Road, Dhaka, Banani-1213</p>
+            <p><strong>Phone:</strong> +880 1932531823</p>
+            <p><strong>Hours:</strong>Always</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100087011123800">
+                    <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fit_galeria/">
+                    <i class="fab fa-instagram" ></i></a>
+                    <a href="http://www.youtube.com/@rkfitnessbd471">
+                    <i class="fab fa-youtube"></i></a>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+                <a href="about.html">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            
+        </div>
+        <div class="col">
+            <h4>My Acount</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div> 
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2025 FitGaleria. All rights reserved.</p>
+        </div>   
+    </footer>
+    <script src="script1.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
